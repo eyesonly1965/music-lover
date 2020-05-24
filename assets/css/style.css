@@ -1,0 +1,153 @@
+h5 {
+  display: block;
+  font-size: 0.83em;
+  margin-block-start: 1.67em;
+  margin-block-end: 1.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.header-style{
+  background-size: cover;
+  background-color: #FF8F5E;
+  background-position: center top;
+  margin-top: -100px;
+  min-height: 92vh;
+}
+.header-img{
+  background-image: url('../images/header.jpg');
+}
+
+.header-style .punch-line{
+  color: #FFDD99;
+  padding-top: 25%;
+  padding-right: 25%;
+  text-align: center;
+  z-index: 3;
+}
+.header-style .punch-line h3{
+  margin-bottom: 0;
+}
+
+.dropdown-item, .navbar-light .navbar-brand{
+  color: salmon;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: salmon;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: salmon;
+}
+
+.d-inline-block {
+  margin-right: 5px;
+}
+
+.main {
+  background-color: #FFFFFF;
+}
+
+.landing-section {
+  padding: 100px 0;
+}
+
+.section {
+  padding: 30px 0;
+  position: relative;
+  background-color: #f4f3ef;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.section-light-brown {
+  background-color: #D8B061;
+  color: #FFFFFF;
+}
+
+.btn-secondary {
+  background-color: #6E80AB;
+}
+
+.btn-secondary:hover {
+  background-color: #9EACCC;
+}
+
+.section-dark {
+  background-color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+
+.section-blue {
+  background-color: #196371;
+  color: #FFFFFF;
+}
+
+.left-side {
+  float: left !important;
+}
+
+.right-side {
+  float: right;
+}
+
+.footer-site .copyright {
+  color: #6E80AB;
+  padding: 10px 15px;
+  font-size: 14px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.footer-site nav > ul > li {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 15px 3px;
+  line-height: 20px;
+  text-align: center;
+}
+
+/* .footer-site nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px; */
+
+
+@media (max-width: 768px) {
+  .punch-line {
+    padding-top: 35%;
+  }
+}
